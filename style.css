@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Update the header */
+h1 {
+  text-align: center;
+}
+
+/* Center the image
+Note: Center aligning has no effect if the width property
+is not set */
+#featured-property {
+  margin: auto;
+  width: 100%;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 8px 0;
+}
+
+figure {
+  width: 900px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+/* Image caption */
+figcaption {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Jazz up navigation links */
+nav {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: #ccc;
+}
+
+/* Make #details section horizontal */
+div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: red;
+}
