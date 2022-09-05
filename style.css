@@ -12,11 +12,6 @@ h1 {
 /* Center the image
 Note: Center aligning has no effect if the width property
 is not set */
-#featured-property {
-  margin: auto;
-  width: 100%;
-}
-
 #featured-property p {
   width: 800px;
   margin: auto;
@@ -42,7 +37,7 @@ figcaption {
 /* Jazz up navigation links */
 nav {
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
   text-align: center;
   padding-bottom: 8px;
 }
@@ -59,3 +54,7 @@ div {
   text-align: center;
   background-color: red;
 }
+
+/*
+
+*/
